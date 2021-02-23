@@ -1,0 +1,31 @@
+[encoding: UTF-8]
+
+# gtkhash
+[type: gettext/glade]data/gtkhash-gtk3.xml
+data/org.gtkhash.gtkhash.desktop.in
+src/callbacks.c
+src/check.c
+src/gui.c
+src/hash.c
+src/list.c
+src/main.c
+src/opts.c
+src/prefs.c
+src/util/util.c
+
+# gtkhash-properties
+[type: gettext/ini]data/caja/libgtkhash-properties-caja.caja-extension.in
+[type: gettext/glade]data/nautilus/gtkhash-properties.xml
+[type: gettext/ini]data/peony/libgtkhash-properties-peony.peony-extension.in
+src/nautilus/properties.c
+src/nautilus/properties-hash.c
+src/nautilus/properties-list.c
+src/nautilus/properties-prefs.c
+
+# appdata
+data/appdata/org.gtkhash.gtkhash.appdata.xml.in
+data/appdata/org.gtkhash.caja.metainfo.xml.in
+data/appdata/org.gtkhash.nautilus.metainfo.xml.in
+data/appdata/org.gtkhash.nemo.metainfo.xml.in
+data/appdata/org.gtkhash.peony.metainfo.xml.in
+data/appdata/org.gtkhash.thunar.metainfo.xml.in
